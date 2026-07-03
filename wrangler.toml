@@ -1,0 +1,11 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "daniel-sparks-credit-cards"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-01-01"
+
+[assets]
+directory = "./dist"
+
+[vars]
+# You can define global environment variables here if needed
+NODE_VERSION = "20"
